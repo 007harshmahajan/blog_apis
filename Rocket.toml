@@ -1,0 +1,15 @@
+[default]
+address = "127.0.0.1"
+port = 8000
+workers = 4
+
+[default.databases.blog_db]
+url = "postgres://localhost/blog_db"
+
+[debug]
+address = "127.0.0.1"
+port = 8000
+workers = 1
+
+[debug.databases.blog_db]
+url = "postgres://localhost/blog_db"
